@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(1, 1, 17);
+    color: white;
+    font-family: 'Poppins',sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85px;
+    background-color: rgb(16, 16, 68);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    
+}
+
+ul li{
+    margin: 0 25px;
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+li a:hover{
+    color: rgb(153, 153, 226);
+    font-size: 1.01rem;
+}
+
+.left{
+    font-size: 1.5rem;
+}
+
+.firstsec{
+    display: flex;
+    justify-content: space-around;
+}
+
+.firstsec > div{
+    width: 30%;
+    height: 50%;
+}
+
+.leftsec {
+    font-size: 3rem;
+}
+
+.leftsec .btn{
+    padding: 12px 0;
+    background-color: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.rightsec img{
+        width: 500px;
+        margin: 0 -120px;
+}
+
+.purple{
+    color: rgb(170, 107, 228);
+}
+
+#element{
+    color: rgb(163, 163, 235);
+}
+
+/* -------------------- Thia ia an Footer section of css -------------------------*/
+
+footer{
+    background-color: rgb(16, 16, 68);
+    height: 30vh;
+    margin: 23px 10px;
+}
+
+.footer{
+    display: flex;
+    margin: 100px 89px;
+    justify-content: space-evenly;
+}
+
+.footer > div{
+    width: 223px;
+}
+
+footer .rights{
+     text-align: center;
+     color: gray;
+     margin: -53px 15px;
+}

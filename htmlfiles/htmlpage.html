@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(14, 11, 7);
+            color: white;
+        }
+
+        ul{
+            display: flex;
+            justify-content:flex-end;
+        }
+
+        li{
+            list-style: none;
+            margin: 19px 40px;
+            color: black;
+            text-decoration: solid;
+        }
+
+        header nav{
+            width: 100;
+            height: 65px;
+            background-color: rgb(189, 189, 156);
+        }
+
+        .list:hover{
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+       ul h1{
+            margin: 17px 750px;
+            color: black;
+         }
+
+        middlesec h1{
+            text-align: center;
+            margin: 34px 0;
+            animation:  5sec 2sec 3;
+        }
+
+        @keyframes slide h1{
+            0%{
+                transform: translate(0vw);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <h1>UNKNOWNSITE</h1>
+                <li class="list">Home</li>
+                <li class="list">About</li>
+                <li class="list">Contact</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <middlesec>
+            <div class="slide"></div>
+            <h1> WELCOM TO OUR WORLD! </h1>
+        </div>
+        </middlesec>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            height: 111px;
+            background-color: black;
+            color: white;
+        }
+        main{
+            height: 1000px;
+            background-color: blue;
+        }
+
+        @keyframes slide1{
+            0%{
+                transform: translate(0vw);
+            }
+            100%{
+                transform: translate(85vw);
+            }
+        }
+
+        @keyframes slide2{
+            0%{
+                transform: translate(0vw);
+            }
+            100%{
+                transform: translate(92vw);
+            }
+        }
+
+        @keyframes slide3{
+            0%{
+                transform: translate(0vw);
+            }
+            100%{
+                transform: translate(102vw);
+            }
+        }
+
+        .slider{
+            background-color: aqua;
+            height: 522px;
+            overflow: hidden;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+        }
+        img{
+            justify-content: center;
+        }
+        .img1{
+            transform: translate(0vw);
+            animation: slide1 2s 1s forwards infinite;
+        }
+        .img2{
+            transform: translate(0vw);
+            animation: slide2 2s 1s forwards infinite;
+        }
+        .img3{
+            transform: translate(0vw);
+            animation: slide2 2s 1s forwards infinite;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="slider">
+        <img class="img1" src="https://source.unsplash.com/960x120/?nature">
+        <img class="img2" src="https://source.unsplash.com/960x120/?natur,water">
+        <img class="img3" src="https://source.unsplash.com/960x120/?flower">
+    </div>
+    </main>
+</body>
+</html>

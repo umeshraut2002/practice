@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for selectors</title>
+    <style>
+        h1 {
+            background-color: aqua;
+            color: black;
+        }
+
+        div {
+            background-color: brown;
+            color: chartreuse;
+        }
+
+        #name {
+            background-color: black;
+            color: white;
+        }
+
+        .yellow {
+            background-color: yellow;
+            color: black;
+        }
+
+        /* universal selector is * */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .yellow.red{
+            background-color: #140303;
+            color: darkgoldenrod;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h1>selector for page</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam ducimus quia fugit tempora sapiente ea aut
+            quis totam ratione maiores quaerat voluptas voluptatum veritatis, sunt quidem rerum in velit omnis
+            asperiores est deleniti repudiandae perspiciatis odit. Eveniet explicabo expedita incidunt.</p>
+    </div>
+    <div id="namw">
+        name
+    </div>
+
+    <span class="yellow blue green">first</span>
+    <span class="yellow">second</span>
+    <span class="yellow">third</span>
+
+    <div class="red yellow">red and yellow</div>
+
+
+</body>
+
+</html>

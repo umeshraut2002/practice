@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin Collapse</title>
+    <style>
+        *{
+          margin: 0;
+          padding: 0;
+        }
+        .box1{
+          background-color: aqua;
+          margin: 30px;
+          height: 324px;
+          width: 224px;
+          padding: 3px;
+          border: 8px solid yellow;
+        }
+        .box2{
+          background-color: red;
+          margin: 20px;
+          height: 20px;
+          width: 100%;
+          padding: 3px;
+          border: 8px solid black;
+          box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam rerum, dolores nobis aperiam molestiae quidem esse, id ipsam quo voluptatum iste dicta quia totam mollitia iure dolor odio numquam. Consequuntur, sint placeat! Animi ut obcaecati unde rerum neque eius, omnis sapiente, iure reiciendis nihil tempore explicabo a iste molestias voluptatem, doloremque ullam magni mollitia id quia dicta? Sint rem sapiente hic et nemo ut velit, eius illo ex odit atque recusandae itaque possimus odio consequatur libero nisi porro? Nihil, sunt. Id nulla obcaecati blanditiis distinctio labore doloremque maxime esse reprehenderit sapiente rerum commodi dolore provident consequuntur excepturi aliquam accusantium 
+    </div>
+    <div class="box2">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam temporibus ad ab tempore culpa, sit atque iure ipsam at eum doloremque fugiat fugit, eveniet ut beatae sed vel! Consequatur, exercitationem adipisci quaerat hic accusamus amet autem dicta reiciendis incidunt suscipit, vitae quod ratione nesciunt quam aliquam iusto aspernatur. Quibusdam at commodi explicabo voluptate quo sit quia. Ut quia sunt temporibus labore inventore asperiores eum quas magnam! Libero aliquam voluptates doloribus natus quod sapiente voluptate deserunt ipsa quidem id fuga reprehenderit nobis doloremque voluptatibus consectetur, cumque non pariatur unde ipsam laborum 
+    </div>
+</body>
+</html>

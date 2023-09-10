@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        * {}
+
+        .container {
+            display: grid;
+            background-color: yellow;
+            height: 50vh;
+            /* grid-row-gap:9px;
+            ggrid-template-columns: 225px 23px 36px 44px;
+            gririd-column-gap:9px; */
+            /* d-tempgrid-gap: 4px 9px;
+            late-rows: 32px 25px; */
+            /* justify-content: center; */
+            /* align-content: end; */
+            grid-gap: 5px;
+            grid-template-columns: auto auto auto auto;
+            /* grid-template-rows: auto auto auto auto ; */
+            grid-column: 1 span 3;
+        }
+
+        .item {
+            background-color: black;
+            border: 2px solid red;
+            color: white;
+           
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+        <!-- <div class="item">10</div>
+        <div class="item">11</div>
+        <div class="item">12</div>
+        <div class="item">13</div>
+        <div class="item">14</div>
+        <div class="item">15</div>
+        <div class="item">16</div> -->
+    </div>
+</body>
+
+</html>

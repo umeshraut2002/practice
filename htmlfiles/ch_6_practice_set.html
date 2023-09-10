@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout for float</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+            display: inline;
+            padding: 10px;
+
+        }
+
+        ul {
+            padding: 20px;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            padding: 0 25px;
+
+        }
+
+        .box1 {
+            background-color: yellow;
+            color: black;
+            height: 50vh;
+            width: 25vw;
+            /* float: right; */
+        }
+
+        .box2 {
+            background-color: red;
+            color: black;
+            height: 50vh;
+            width: 25vw;
+            /* float: left; */
+        }
+        .container{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+    <div class="box1">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt blanditiis error deserunt consequuntur veritatis,
+        ut quos et molestiae beatae excepturi veniam unde. Facilis, saepe quaerat.
+    </div>
+    <div class="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis possimus reprehenderit iure
+        recusandae maiores perferendis modi vero quibusdam, laudantium eius enim, atque
+    </div>
+</div>
+</body>
+
+</html>
